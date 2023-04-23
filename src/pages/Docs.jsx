@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import docs from "../assets/images/docs.png"
 
 const Docs = () => {
 	return (
@@ -9,7 +10,7 @@ const Docs = () => {
 						<h1 className="xl">Docs</h1>
 						<p className="lead">Learn how to work with the Loruki platform</p>
 					</div>
-					<img src="images/docs.png" alt="" />
+					<img src={docs} alt="docs   " />
 				</div>
 			</section>
 
