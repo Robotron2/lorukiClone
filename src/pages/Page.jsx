@@ -8,8 +8,8 @@ const Page = () => {
 		<>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<Features />} />
-				<Route path="/about" element={<Docs />} />
+				<Route path="/features" element={<Features />} />
+				<Route path="/docs" element={<Docs />} />
 			</Routes>
 		</>
 	)

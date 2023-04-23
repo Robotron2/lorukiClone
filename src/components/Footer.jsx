@@ -8,7 +8,7 @@ const Footer = () => {
 			<footer className="footer bg-dark py-5">
 				<div className="container grid grid-3">
 					<div>
-						<h1>Loruki</h1>
+						<h1>Robotron</h1>
 						<p>Copyright &copy; {date}</p>
 					</div>
 					<nav>
