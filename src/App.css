@@ -277,3 +277,14 @@ pre {
 .fa-twitter:hover {
 	color: #1c9cea;
 }
+
+/* Animations */
+@keyframes slideInFromLeft {
+	0% {
+		transform: translateX(-100%);
+	}
+
+	100% {
+		transform: translateX(0);
+	}
+}
